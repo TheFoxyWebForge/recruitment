@@ -1,0 +1,228 @@
+
+
+    body{
+        font-family: Montserrat;
+        background-color:black;
+  
+      
+      }
+  
+  
+  
+   header{
+      width: 100%;
+      position: fixed;
+    
+      -webkit-transition: background-color 2s ease-out;
+      -moz-transition: background-color 2s ease-out;
+      -o-transition: background-color 2s ease-out;
+      transition: background-color 0s ease-out;
+      z-index: 1000;
+      height: fit-content;
+  }
+  
+  
+   
+  
+      h3{
+        font-family: Montserrat-bold;
+        font-weight: bold;
+      }
+  
+      .container-fluid{
+        padding: -8% 2% -4%;
+    
+  
+      }
+      .navbar{
+        padding-left: 10%;
+        padding-right:10%;
+  
+  
+      }
+      .navbar-brand{
+        font-family: Ubuntu cursive;
+        font-size: 2.0rem;
+        font-weight: bold;
+  
+      }
+      .nav-item{
+      padding-right:15px;
+      font-size:5.0rem;
+  
+  
+      }
+  
+      .nav-link:hover{
+  
+      color: rgb(147, 27, 177);
+      
+     
+      }
+  
+  
+     
+      
+      .logo{
+        width:80%;
+        
+      }
+      .nav-link{
+        font-size: 1.3rem;
+        font-family: Montserrat;
+        padding:2% 0%;
+        font-weight: 500;
+        color: #fff;
+  
+      }
+  
+  
+  
+  
+  
+  
+  
+  
+/*   
+  .scrolling-active{
+      background-color:rgb(0, 0, 0);
+      box-shadow: 0 1px 1rem  rgb(172, 86, 221);
+     
+  }
+  
+  .scrolling-active .navbar{
+    padding-top: 1%;
+    padding-bottom: 1%;
+      height: 4rem;
+      color: #110101;
+    
+  }
+  
+  .scrolling-active .nav a{
+      color: #110101;
+    
+  }
+  .scrolling-active .navbar-collapse{
+    background-color: black;
+    padding-left: 15%;
+    border-radius: 5%;
+  }
+  
+  
+  .scrolling-active .nav-link:hover{
+    color: rgb(205, 127, 224);
+  
+  }
+  
+  .scrolling-active .new5{
+    visibility: hidden;
+  }
+  
+  
+  
+  .scrolling-active .logo{
+    width: 25%;
+    
+  
+   
+  }
+  
+  
+  
+   */
+  hr.new5 {
+    border-top: 1.5px dotted  rgb(219, 171, 228);
+    opacity: 0.5;
+    inline-size: 70%;
+  
+  
+    
+  }
+  
+  .n2{
+    border-top: 9px dotted rgba(212, 208, 210, 0.308);
+  opacity: 0.5;
+    inline-size: 40px; 
+  
+    
+  }
+  
+  
+  
+    
+  
+  
+  #myVideo {
+    position:absolute;
+    background-position: fixed;
+   width: 220vh;
+   height: 100vh;
+align-content: center;
+    
+  }
+  
+  .banner-text{
+  position:absolute;
+  padding-top: 40vw;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  color: #fff;
+  
+  
+  }
+  
+  
+  
+  
+  .box{
+    font-size: 4vw;
+  font-weight: bold;
+  opacity: 0;
+  margin: 0;
+  
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 1px 5rem rgb(89, 0, 255);
+  color: rgb(240, 231, 247);
+  }
+  
+  
+  
+  .b1{
+  animation: ani1 3s infinite;
+  }
+  .b2{
+  animation: ani2 3s infinite;
+  }
+  
+  
+  @keyframes ani1 {
+  0%{
+    opacity: 0;
+  }
+  25%{
+    opacity: 1;
+  }
+  50%{
+    opacity: 0;
+  }
+  
+  }
+  
+  @keyframes ani2 {
+  50%{
+    opacity: 0;
+  }
+  75%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
+  
+  }
+  
+  
